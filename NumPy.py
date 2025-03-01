@@ -45,3 +45,62 @@ Sub = a-b
 print(Sub)
 Boolean = a>b
 print(Boolean)
+a+3
+print(a)
+
+a = [a%3==0]
+print(a)
+
+values = np.random.randn(3,3)
+print(values)
+
+data = np.array([['cat','dog','cat'],['dog','dog','cat'],['cat','cat','dog']])
+print(data)
+#Check karna ka cat ka corresponding ko si values genegarte ho ari ha
+print(values[data=='cat'])
+
+arr5 = np.random.randn(4,4)
+print(arr5)
+print("alag")
+arr6=np.round(arr5,2)
+print(arr6)
+print("ALLLL")
+print(arr6[::,0:3])
+
+#Maximum values of array from two arrays
+m1=np.array([1,2,3,4,5])
+m2=np.array([1,3,4,6,7])
+print(np.maximum(m1,m2))
+
+l1=np.arange(9).reshape(3,3)
+print(l1)
+
+l2=np.arange(6).reshape(3,2)
+print(l2)
+
+#We can't two different shapes of array
+# B=l1*l2
+# print(B)
+
+#We can calculate dot product of it
+print("Dot Product")
+print(np.dot(l1,l2))
+#Same as upper
+print(l1.dot(l2))
+#Convert into transpose (row into column and vice versa)
+print("Transpose")
+print(l1.T)
+print(l2.T)
+#Infer the dimension from 2 to three or three to 2 etc
+print("Infer the Dimension")
+print(l1)
+print()
+print(l2.reshape(3,-1))
+print("Merging two Data Sets or arrays")
+print(np.concatenate((l1,l2),axis=1))
+
+print("Horizenta Stack")
+# print(np.hstack(l1,l2))
+
+# print("Vertical Stack")
+# # print(np.hstack(l1,l2))
