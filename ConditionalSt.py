@@ -18,4 +18,4 @@ if x > 30 and y > 10:
 elif x >= 10:
     print("Second elif")
 else:
-    print("Third else")
+    # print("Third else")
