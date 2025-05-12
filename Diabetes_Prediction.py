@@ -11,4 +11,4 @@ from sklearn.metrics import accuracy_score
 
 #loading the diabetes dataset to a pandas DataFrame
 diabetes_dataset = pd.read_csv('\PythonStarts\diabetes.csv')
-pd.read_csv()
+# pd.read_csv()
