@@ -40,5 +40,5 @@ class Car():
         print(f"The Year of a car is:{self.year}") 
 car1 = Car('Honda','City','2025')
 car1.getcarname()   
-# car1.getcarmodel()
-# car1.getcaryear()   
+car1.getcarmodel()
+car1.getcaryear()   
