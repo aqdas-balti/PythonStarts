@@ -102,6 +102,6 @@ ls1 =[1,2,3]
 ls2 = [1,2,3]
 for i in ls1:
     for j in ls2:
-        print('i=',i)
-        print('j=',j)
-        print ("i*j=",i*j)
+        # print('i=',i)
+        # print('j=',j)
+        # print ("i*j=",i*j)
